@@ -1,0 +1,13 @@
+compile:
+  commands: make
+
+run:
+  commands: ./testdb
+  flags:
+    - data
+    - query
+    - join
+    - index
+    - pk
+    - comb
+
